@@ -11,13 +11,13 @@ const ProfileScreen = () => {
             <View style={{padding:20}}>
                 <Text>Profile</Text>
 
+                {/* TODO: Show logged in user info */}
                 <Text>Email here</Text>
                 <Text>Username here</Text>
 
                 <Button 
                     title="Sign Out"
-                    
-                    color="blue"
+                    color="green"
                     onPress={handleLogout} />
             </View>
         </SafeAreaView>
